@@ -4,6 +4,11 @@
   overflow: scroll;
 }
 
-#selectorLang {
-	font-size: 50
+.link-active {
+	color: black;
+	text-decoration: underline;
+}
+
+.link-not-active {
+	color: grey;
 }
