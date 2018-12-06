@@ -3,3 +3,7 @@
   width: 260px;
   overflow: scroll;
 }
+
+#selectorLang {
+	font-size: 50
+}
