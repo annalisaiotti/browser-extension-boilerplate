@@ -70,7 +70,7 @@ function receiver(request, sender, sendResponse) {
 		"🤳🏽":["Mi faccio un selfie","Sono molto vanitoso","Ho appena ripreso il telefono"],
 		"🤳🏾":["Mi faccio un selfie","Sono molto vanitoso","Ho appena ripreso il telefono"],
 		"🤳🏿":["Mi faccio un selfie","Sono molto vanitoso","Ho appena ripreso il telefono"],
-		"😍":["Talmente bello che i miei occhi diventano cuori","bla bla"],
+		"😍":["Talmente bello che i miei occhi diventano cuori", "È meraviglioso!"],
 		"🤩":["Sto guardando una cosa fantastica! ","È strabiliante!","Stupefacente!!", "Sbalorditivo!","talmente sfavillante che i miei occhi diventano stelle", "Sono accecato dalla magnifocenza di questa cosa!"],
 		"👶🏻":["che bel bimbo!","un dolce piccolo pargolo"],
 		"👶🏼":["che bel bimbo!","un dolce piccolo pargolo"],
