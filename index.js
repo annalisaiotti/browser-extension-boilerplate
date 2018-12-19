@@ -134,7 +134,7 @@ function receiver(request, sender, sendResponse) {
 		"😘":[" Mando un bacetto ammiccante", " Ti dò un bacio un po' sbarazzino", " Bacioni a tutti"],
 		"😊":[" Ti faccio un dolce sorriso", " Questo mi fa arrossire le gote", " Sono in un simpatico imbarazzo"],
 		"😰":[" Sto sudando freddo", " Sono un po' a disagio", " Questa cosa mi spaventa un poco.."],
-		"😅":[" Ehm sono un po'spiazzato", " Eh, è proprio come sembra..."],
+		"😅":[" Ehm sono un po' spiazzato", " Eh, è proprio come sembra..."],
 		"😂":[" Sto ridendo talmente tanto che mi scendono le lacrime", " Piove dai miei dotti lacrimali dal gran che rido"],
 		"🤣":[" Sto ridendo talmente tanto che ho la faccia storta mi scendono le lacrime", " Mi si è girata la faccia a 45° dal gran che rido!"],
 		"😒":[" Non era necessario dirlo", " Sono basito", " Sempre il solito"],
@@ -177,7 +177,7 @@ function receiver(request, sender, sendResponse) {
 		"🤓":[" Che secchione"," Studiatissimo", " Gaglioffo!"],
 		"😬":[" Ti piace la mia nuova dentiera? "," Ti mostro un sorriso poco naturale e sforzato", " Il mio sorriso indica preoccupazione"],
 		"🧐":[" Analizziamo meglio la questione"," È troppo minuzioso e complicato", " Oggi mi sento solenne e raffinato", " Ho un monocolo per eviscerare meglio le informazioni"],
-		"😏":[" Se capisci cosa intendo..."," Sei sicuro che sia andata proprio così?", " Vecchia volpe!", " Ti osservo..."] 
+		"😏":[" Se capisci cosa intendo..."," Sei sicuro che sia andata proprio così?", " Vecchia volpe!", " Ti osservo..."], 
 		"💵":[" Che ricchezza"],
 		"💍":[" Talmente prezioso che lo potrei utilizzare per una proposta di nozze", " Davvero prezioso ed elegante", " Prezioso come il gioiello che porto al dito"],
 		"©":[" Sento che questa cosa mi appartiene", " Su questo ho il copyright!"],
@@ -217,7 +217,7 @@ function receiver(request, sender, sendResponse) {
 		"🙉":[" Mi rifiuto di ascoltare"," Mi tappo le orecchie!", " Non ascolto nulla"],
 		"💃":[" Fantastico come una ballerina di tango"," Andiamo a festeggiare", " Che ragazza facile!", " Che sgarzigliona!", " Vorrei Ballare"],
 		"🎣":[" Sono a pescare"," Vorrei pescare", " Mi sento in trappola come un pesce attaccato a un amo", " Non hai scampo"],
-		"⏰":[" Sii puntuale"," Abbiamo una scadenza!", " Manca poco!", " Puntuale come un orologio svizzero"],
+		"⏰":[" Sii puntuale"," Abbiamo una scadenza!", " Manca poco!", " Puntuale come un orologio svizzero"]
 	}
 
     const emojisInTwitter = document.querySelectorAll(".Emoji.Emoji--forText");
