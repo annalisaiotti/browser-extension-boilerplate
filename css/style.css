@@ -18,27 +18,16 @@ h2{
 	
 }
 
+h4{
+	line-height: 4px;
+	margin-top: 40px;
+	font-size: 40px;
+	margin-bottom: 70px;
+
+}
+
 a {
 	color: black;
-
-}
-
-.button {
-	padding: 5px 20px;
-	background: rgb(255,196,0);
-	border-radius: 25px;
-	cursor: pointer;
-    }
-
-.button:hover {
-	color: white;
-	background:rgb(242,164,39);
-
-}
-
-
-#description {
-	clear: left;
 }
 
 h3{
@@ -58,14 +47,16 @@ ol{
 	line-height: 28px;
 }
 
-#logo img{
-	width: 100px;
-	margin-left: 150px;
-	margin-top: 50px;
-}
+.button {
+	padding: 5px 20px;
+	background: rgb(255,196,0);
+	border-radius: 25px;
+	cursor: pointer;
+    }
 
-#video {
-	margin-top: 50px;
+.button:hover {
+	color: white;
+	background:rgb(242,164,39);
 }
 
 .container{
@@ -75,14 +66,36 @@ ol{
 	margin-top: 10px;
 }
 
+#description {
+	clear: left;
+}
 
-#emoticons img{
-	width: 40px;
-	margin: 10px;
+#logo img{
+	width: 7%;
+	margin-left: 7%;
+	margin-top: 50px;
+}
+
+#video {
+	margin-top: 50px;
+}
+
+#emoticons {
+	font-size: 50px;
+	width: 500px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+
+
+
+}
+
+#instructions {
+	margin-left: -20px;
 }
 
 #credits {
-	margin-left: 20px;
+	
 	margin-top: 50px;
 	color: rgb(255,196,0);
 	font-family: arial;
