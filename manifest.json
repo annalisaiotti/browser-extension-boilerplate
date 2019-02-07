@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "nomoreEmoji",
-  "version": "0.1",
-  "description": "My extension description",
+  "version": "0.2",
+  "description": "Nomoremoji is a web extension designed to counteract the impoverishment of language caused by the disproportionate use of emojis",
   "homepage_url": "https://github.com/uf0/browser-extension-boileplate",
   "icons": {
     "48": "icons/icon-48.png",
