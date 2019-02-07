@@ -191,6 +191,7 @@ function receiver(request, sender, sendResponse) {
 		"🖤":[" Un sentimento nero e elegante, non esibito", " Cuore nero da Femme Fatal"],
 		"🧡":[" Un forte sentimento color fuoco"],
 		"💙":[" Ti voglio un bene azzurro, leggero come il cielo"],
+		"&#x1F499":[" Ti voglio un bene azzurro, leggero come il cielo"],
 		"💚":[" Un sentimento verde come la speranza"],
 		"💛":[" Il bene che ti voglio, è caldo e splendente come il sole"],
 		"💔":[" Il mio cuore si sta spezzando", " Per questo il mio muscolo cardiaco potrebbe spezzarsi", " Questa cosa mi ferisce nel profondo"],
