@@ -227,7 +227,6 @@ function receiver(request, sender, sendResponse) {
       const emojiReal = emojiInTwitter.getAttribute("alt");
       const newText = document.createElement("span");
       newText.classList.toggle("my-text-to-emoji");
-      console.log(emojiReal)
       if (dictionary[emojiReal]) {
       	const rand = Math.floor(Math.random() * dictionary[emojiReal].length) + 1 
         newText.textContent = dictionary[emojiReal][rand-1];
@@ -237,6 +236,23 @@ function receiver(request, sender, sendResponse) {
       emojiInTwitter.style["display"]="none"
       //console.log(dictionary[emojiReal]);
     }
+
+
+     const emojisInTwitterWeb = document.querySelectorAll(".EmojiWeb.Emoji--forText");
+    for (emojiInTwitter of emojisInTwitterWeb) {
+      const emojiReal = emojiInTwitter.innerHTML;
+      const newText = document.createElement("h4");
+      newText.classList.toggle("my-text-to-emoji");
+      if (dictionary[emojiReal]) {
+      	const rand = Math.floor(Math.random() * dictionary[emojiReal].length) + 1 
+        newText.textContent = dictionary[emojiReal][rand-1];
+      }
+
+      emojiInTwitter.parentNode.insertBefore(newText, emojiInTwitter);
+      emojiInTwitter.style["display"]="none"
+      //console.log(dictionary[emojiReal]);
+    }
+
   } else {
     //do else
     body.classList.toggle("my-beautiful-extension");
